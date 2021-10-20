@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1634242109137,
+  "lastUpdate": 1634760361711,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -63,6 +63,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3461.8015894396553,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Anuraag Agrawal",
+            "username": "anuraaga",
+            "email": "aanuraag@amazon.co.jp"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "795b02e14aa9e12ae2568bb395430eec2b2242ba",
+          "message": "Fix log injection of xray ID. (#102)",
+          "timestamp": "2021-10-19T23:51:55Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/795b02e14aa9e12ae2568bb395430eec2b2242ba"
+        },
+        "date": 1634760360025,
+        "tool": "custombenchmark",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 25.618363095238095,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3455.0024245689656,
             "unit": "Megabytes"
           }
         ]
