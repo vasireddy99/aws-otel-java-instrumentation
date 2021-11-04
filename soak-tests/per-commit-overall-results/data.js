@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1635970272773,
+  "lastUpdate": 1636056655458,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -547,6 +547,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3456.9342447916665,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Anuraag Agrawal",
+            "username": "anuraaga",
+            "email": "aanuraag@amazon.co.jp"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "a75098a6d21338c7247f48324ba08a874eac20bf",
+          "message": "Revert \"Use aws-credentials action to configure creds bc it uses OIDC by default (#110)\" (#111)\n\nThis reverts commit 16bd8a42187668bc85f790883f9ad7468a9dca6b.",
+          "timestamp": "2021-11-04T00:11:01Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/a75098a6d21338c7247f48324ba08a874eac20bf"
+        },
+        "date": 1636056654988,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 31.00922619047619,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3461.5922683189656,
             "unit": "Megabytes"
           }
         ]
