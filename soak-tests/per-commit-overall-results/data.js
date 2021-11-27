@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1636143000035,
+  "lastUpdate": 1638043624175,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -739,6 +739,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3459.1403645833334,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "(Eliseo) Nathaniel Ruiz Nowell",
+            "username": "NathanielRN",
+            "email": "enowell@amazon.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "2a354ab79961e834c49db7de920481956327295e",
+          "message": "Bump the CPU Threshold after several violations (#120)",
+          "timestamp": "2021-11-27T03:49:39Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/2a354ab79961e834c49db7de920481956327295e"
+        },
+        "date": 1638043623674,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 33.42399425287356,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3467.2696614583333,
             "unit": "Megabytes"
           }
         ]
