@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638216666034,
+  "lastUpdate": 1638216667500,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -577,6 +577,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3487.838631465517,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Anuraag Agrawal",
+            "username": "anuraaga",
+            "email": "aanuraag@amazon.co.jp"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "0247a4538a905388ebcc9c190da864f044403694",
+          "message": "Update Gradle and build dependencies. (#119)",
+          "timestamp": "2021-11-29T01:00:53Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/0247a4538a905388ebcc9c190da864f044403694"
+        },
+        "date": 1638216666919,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 34.329597701149424,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3488.780078125,
             "unit": "Megabytes"
           }
         ]
