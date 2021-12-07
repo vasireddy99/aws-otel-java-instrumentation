@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638907757516,
+  "lastUpdate": 1638907866187,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -319,6 +319,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3442.720905172414,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Anuraag Agrawal",
+            "username": "anuraaga",
+            "email": "aanuraag@amazon.co.jp"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "01aa484c605db5d2d8651770e65fede0bebe75cf",
+          "message": "Workaround SDK synchronous counters not reported correctly. (#124)",
+          "timestamp": "2021-12-07T04:32:00Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/01aa484c605db5d2d8651770e65fede0bebe75cf"
+        },
+        "date": 1638907865039,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 16.790555555555564,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3437.7600446428573,
             "unit": "Megabytes"
           }
         ]
