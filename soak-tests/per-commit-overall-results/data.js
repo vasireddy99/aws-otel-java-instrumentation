@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1638907866187,
+  "lastUpdate": 1638994032391,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -1091,6 +1091,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3467.380926724138,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "(Eliseo) Nathaniel Ruiz Nowell",
+            "username": "NathanielRN",
+            "email": "enowell@amazon.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "c258373d84bc8618e3ddc7347dc7217ba534a9f8",
+          "message": "Bump CPU threshold limit to 55 (#125)\n\n* Issue #122 showed that the CPU Usage can be as high as 55 percent at startup\r\n* Since the CPU usage is going down, we don't suspect it is a memory leak\r\n* We want to alarm on continuous HIGH CPU Usage, so we just push the limit up for now",
+          "timestamp": "2021-12-08T03:34:15Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/c258373d84bc8618e3ddc7347dc7217ba534a9f8"
+        },
+        "date": 1638994031797,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 27.109137931034482,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3465.456640625,
             "unit": "Megabytes"
           }
         ]
