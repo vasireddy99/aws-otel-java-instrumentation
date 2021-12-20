@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640030741528,
+  "lastUpdate": 1640030748503,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -1315,6 +1315,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3449.829067887931,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Anuraag Agrawal",
+            "username": "anuraaga",
+            "email": "aanuraag@amazon.co.jp"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "1ae69facc2b330675777ee43df9d8593dad0c47b",
+          "message": "Update log4j test dependency (#133)",
+          "timestamp": "2021-12-20T04:50:00Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/1ae69facc2b330675777ee43df9d8593dad0c47b"
+        },
+        "date": 1640030747998,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 32.12452380952381,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3452.528421336207,
             "unit": "Megabytes"
           }
         ]
