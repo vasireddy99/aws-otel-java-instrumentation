@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640117196769,
+  "lastUpdate": 1640203562739,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -961,6 +961,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3478.4788523706898,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "(Eliseo) Nathaniel Ruiz Nowell",
+            "username": "NathanielRN",
+            "email": "enowell@amazon.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "3c886a8cfd4c379cf0814b7d05ef6b1fc02cac91",
+          "message": "GH Action OIDC AWS Creds for GH workflows (#130)",
+          "timestamp": "2021-12-21T06:20:48Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/3c886a8cfd4c379cf0814b7d05ef6b1fc02cac91"
+        },
+        "date": 1640203561828,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 31.30218390804598,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3470.5638020833335,
             "unit": "Megabytes"
           }
         ]
