@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640203562739,
+  "lastUpdate": 1640808363568,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -479,6 +479,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3456.6489762931033,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "(Eliseo) Nathaniel Ruiz Nowell",
+            "username": "NathanielRN",
+            "email": "enowell@amazon.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "919fda896575be774bc2337fc13e06e3c357c239",
+          "message": "Remove Sleep from all workflows (#134)\n\n* Previously, we used a sleep when the AWS Cred GH action was very new\n* Now, we don't need the sleep and can run this GH action without issue",
+          "timestamp": "2021-12-28T16:15:20Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/919fda896575be774bc2337fc13e06e3c357c239"
+        },
+        "date": 1640808363012,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 24.140201149425287,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3441.103515625,
             "unit": "Megabytes"
           }
         ]
