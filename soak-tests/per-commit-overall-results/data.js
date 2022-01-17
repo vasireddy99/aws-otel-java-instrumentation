@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1640894763270,
+  "lastUpdate": 1642450076269,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -1571,6 +1571,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3447.270703125,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Anuraag Agrawal",
+            "username": "anuraaga",
+            "email": "aanuraag@amazon.co.jp"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "ae69a3fef3274282bc4e125d12e874d9330085d4",
+          "message": "Update to OTel 1.10 (#137)\n\n* Update to OTel 1.10\r\n\r\n* Update other dependencies.\r\n\r\n* Update licenses",
+          "timestamp": "2022-01-17T07:33:05Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/ae69a3fef3274282bc4e125d12e874d9330085d4"
+        },
+        "date": 1642450075787,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 23.174107142857142,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3443.247036637931,
             "unit": "Megabytes"
           }
         ]
