@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1642536676745,
+  "lastUpdate": 1642623037345,
   "repoUrl": "https://github.com/aws-observability/aws-otel-java-instrumentation",
   "entries": {
     "Soak Test Results - sample-app-spark-awssdkv1-auto": [
@@ -1699,6 +1699,38 @@ window.BENCHMARK_DATA = {
           {
             "name": "Soak Test Average Virtual Memory Used",
             "value": 3453.8578125,
+            "unit": "Megabytes"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "Vasi Vasireddy",
+            "username": "vasireddy99",
+            "email": "41936996+vasireddy99@users.noreply.github.com"
+          },
+          "committer": {
+            "name": "GitHub",
+            "username": "web-flow",
+            "email": "noreply@github.com"
+          },
+          "id": "51c7748acc878c2633a3c6307e10b93bd1ed2832",
+          "message": "Adding latest tag and support arm64 architecture for the builds (#140)\n\n* add latest tag and support arm64 arch\r\n\r\n* tags\r\n\r\n* support to all sample apps\r\n\r\n* image modification",
+          "timestamp": "2022-01-19T02:23:32Z",
+          "url": "https://github.com/aws-observability/aws-otel-java-instrumentation/commit/51c7748acc878c2633a3c6307e10b93bd1ed2832"
+        },
+        "date": 1642623036842,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "Soak Test Average CPU Load",
+            "value": 24.963660714285712,
+            "unit": "Percent"
+          },
+          {
+            "name": "Soak Test Average Virtual Memory Used",
+            "value": 3447.4593211206898,
             "unit": "Megabytes"
           }
         ]
