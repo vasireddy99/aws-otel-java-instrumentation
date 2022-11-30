@@ -1,7 +1,7 @@
 
 #aws-otel-java-instrumentation
 ##Dependency License Report
-_2022-11-02 17:31:33 UTC_
+_2022-11-29 15:51:50 PST_
 ## Apache 2
 
 **1** **Group:** `joda-time` **Name:** `joda-time` **Version:** `2.8.1` 
@@ -20,31 +20,31 @@ _2022-11-02 17:31:33 UTC_
 **3** **Group:** `com.google.errorprone` **Name:** `error_prone_annotations` **Version:** `2.14.0` 
 > - **POM License**: Apache 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**4** **Group:** `io.grpc` **Name:** `grpc-api` **Version:** `1.50.2` 
+**4** **Group:** `io.grpc` **Name:** `grpc-api` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-**5** **Group:** `io.grpc` **Name:** `grpc-context` **Version:** `1.50.2` 
+**5** **Group:** `io.grpc` **Name:** `grpc-context` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-**6** **Group:** `io.grpc` **Name:** `grpc-core` **Version:** `1.50.2` 
+**6** **Group:** `io.grpc` **Name:** `grpc-core` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-**7** **Group:** `io.grpc` **Name:** `grpc-protobuf` **Version:** `1.50.2` 
+**7** **Group:** `io.grpc` **Name:** `grpc-protobuf` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-**8** **Group:** `io.grpc` **Name:** `grpc-protobuf-lite` **Version:** `1.50.2` 
+**8** **Group:** `io.grpc` **Name:** `grpc-protobuf-lite` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-**9** **Group:** `io.grpc` **Name:** `grpc-services` **Version:** `1.50.2` 
+**9** **Group:** `io.grpc` **Name:** `grpc-services` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
-**10** **Group:** `io.grpc` **Name:** `grpc-stub` **Version:** `1.50.2` 
+**10** **Group:** `io.grpc` **Name:** `grpc-stub` **Version:** `1.51.0` 
 > - **POM Project URL**: [https://github.com/grpc/grpc-java](https://github.com/grpc/grpc-java)
 > - **POM License**: Apache 2.0 - [https://opensource.org/licenses/Apache-2.0](https://opensource.org/licenses/Apache-2.0)
 
@@ -59,57 +59,57 @@ _2022-11-02 17:31:33 UTC_
 
 ## Apache License, Version 2.0
 
-**13** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-core` **Version:** `1.12.333` 
+**13** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-core` **Version:** `1.12.350` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
 
-**14** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-kms` **Version:** `1.12.333` 
+**14** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-kms` **Version:** `1.12.350` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
 
-**15** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-s3` **Version:** `1.12.333` 
+**15** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-s3` **Version:** `1.12.350` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
 
-**16** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-sts` **Version:** `1.12.333` 
+**16** **Group:** `com.amazonaws` **Name:** `aws-java-sdk-sts` **Version:** `1.12.350` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
 
-**17** **Group:** `com.amazonaws` **Name:** `jmespath-java` **Version:** `1.12.333` 
+**17** **Group:** `com.amazonaws` **Name:** `jmespath-java` **Version:** `1.12.350` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
 
-**18** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-core` **Version:** `2.13.4` 
+**18** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-core` **Version:** `2.14.1` 
 > - **Project URL**: [https://github.com/FasterXML/jackson-core](https://github.com/FasterXML/jackson-core)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-core-2.13.4.jar/META-INF/LICENSE](jackson-core-2.13.4.jar/META-INF/LICENSE) 
-    - [jackson-core-2.13.4.jar/META-INF/NOTICE](jackson-core-2.13.4.jar/META-INF/NOTICE)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **Embedded license files**: [jackson-core-2.14.1.jar/META-INF/LICENSE](jackson-core-2.14.1.jar/META-INF/LICENSE) 
+    - [jackson-core-2.14.1.jar/META-INF/NOTICE](jackson-core-2.14.1.jar/META-INF/NOTICE)
 
-**19** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-databind` **Version:** `2.13.4.2` 
-> - **Project URL**: [http://github.com/FasterXML/jackson](http://github.com/FasterXML/jackson)
+**19** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-databind` **Version:** `2.14.1` 
+> - **Project URL**: [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-databind-2.13.4.2.jar/META-INF/LICENSE](jackson-databind-2.13.4.2.jar/META-INF/LICENSE) 
-    - [jackson-databind-2.13.4.2.jar/META-INF/NOTICE](jackson-databind-2.13.4.2.jar/META-INF/NOTICE)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **Embedded license files**: [jackson-databind-2.14.1.jar/META-INF/LICENSE](jackson-databind-2.14.1.jar/META-INF/LICENSE) 
+    - [jackson-databind-2.14.1.jar/META-INF/NOTICE](jackson-databind-2.14.1.jar/META-INF/NOTICE)
 
-**20** **Group:** `com.fasterxml.jackson.dataformat` **Name:** `jackson-dataformat-cbor` **Version:** `2.13.4` 
-> - **Project URL**: [http://github.com/FasterXML/jackson-dataformats-binary](http://github.com/FasterXML/jackson-dataformats-binary)
+**20** **Group:** `com.fasterxml.jackson.dataformat` **Name:** `jackson-dataformat-cbor` **Version:** `2.14.1` 
+> - **Project URL**: [https://github.com/FasterXML/jackson-dataformats-binary](https://github.com/FasterXML/jackson-dataformats-binary)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**21** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jdk8` **Version:** `2.13.4` 
+**21** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jdk8` **Version:** `2.14.1` 
 > - **Manifest Project URL**: [https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8](https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**22** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jsr310` **Version:** `2.13.4` 
+**22** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jsr310` **Version:** `2.14.1` 
 > - **Manifest Project URL**: [https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310](https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-datatype-jsr310-2.13.4.jar/META-INF/LICENSE](jackson-datatype-jsr310-2.13.4.jar/META-INF/LICENSE)
+> - **Embedded license files**: [jackson-datatype-jsr310-2.14.1.jar/META-INF/LICENSE](jackson-datatype-jsr310-2.14.1.jar/META-INF/LICENSE)
 
-**23** **Group:** `com.fasterxml.jackson.module` **Name:** `jackson-module-parameter-names` **Version:** `2.13.4` 
+**23** **Group:** `com.fasterxml.jackson.module` **Name:** `jackson-module-parameter-names` **Version:** `2.14.1` 
 > - **Manifest Project URL**: [https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names](https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -197,10 +197,10 @@ _2022-11-02 17:31:33 UTC_
 > - **Manifest Project URL**: [https://netty.io/](https://netty.io/)
 > - **POM License**: Apache License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-**44** **Group:** `net.bytebuddy` **Name:** `byte-buddy` **Version:** `1.12.18` 
+**44** **Group:** `net.bytebuddy` **Name:** `byte-buddy` **Version:** `1.12.19` 
 > - **POM License**: Apache License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [byte-buddy-1.12.18.jar/META-INF/LICENSE](byte-buddy-1.12.18.jar/META-INF/LICENSE) 
-    - [byte-buddy-1.12.18.jar/META-INF/NOTICE](byte-buddy-1.12.18.jar/META-INF/NOTICE)
+> - **Embedded license files**: [byte-buddy-1.12.19.jar/META-INF/LICENSE](byte-buddy-1.12.19.jar/META-INF/LICENSE) 
+    - [byte-buddy-1.12.19.jar/META-INF/NOTICE](byte-buddy-1.12.19.jar/META-INF/NOTICE)
 
 **45** **Group:** `org.apache.httpcomponents` **Name:** `httpclient` **Version:** `4.5.13` 
 > - **POM Project URL**: [http://hc.apache.org/httpcomponents-client](http://hc.apache.org/httpcomponents-client)
@@ -350,119 +350,119 @@ _2022-11-02 17:31:33 UTC_
 > - **POM Project URL**: [https://bitbucket.org/snakeyaml/snakeyaml](https://bitbucket.org/snakeyaml/snakeyaml)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**70** **Group:** `software.amazon.awssdk` **Name:** `annotations` **Version:** `2.18.8` 
+**70** **Group:** `software.amazon.awssdk` **Name:** `annotations` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [annotations-2.18.8.jar/META-INF/LICENSE.txt](annotations-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [annotations-2.18.8.jar/META-INF/NOTICE.txt](annotations-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [annotations-2.18.25.jar/META-INF/LICENSE.txt](annotations-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [annotations-2.18.25.jar/META-INF/NOTICE.txt](annotations-2.18.25.jar/META-INF/NOTICE.txt)
 
-**71** **Group:** `software.amazon.awssdk` **Name:** `apache-client` **Version:** `2.18.8` 
+**71** **Group:** `software.amazon.awssdk` **Name:** `apache-client` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [apache-client-2.18.8.jar/META-INF/LICENSE.txt](apache-client-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [apache-client-2.18.8.jar/META-INF/NOTICE.txt](apache-client-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [apache-client-2.18.25.jar/META-INF/LICENSE.txt](apache-client-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [apache-client-2.18.25.jar/META-INF/NOTICE.txt](apache-client-2.18.25.jar/META-INF/NOTICE.txt)
 
-**72** **Group:** `software.amazon.awssdk` **Name:** `arns` **Version:** `2.18.8` 
+**72** **Group:** `software.amazon.awssdk` **Name:** `arns` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [arns-2.18.8.jar/META-INF/LICENSE.txt](arns-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [arns-2.18.8.jar/META-INF/NOTICE.txt](arns-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [arns-2.18.25.jar/META-INF/LICENSE.txt](arns-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [arns-2.18.25.jar/META-INF/NOTICE.txt](arns-2.18.25.jar/META-INF/NOTICE.txt)
 
-**73** **Group:** `software.amazon.awssdk` **Name:** `auth` **Version:** `2.18.8` 
+**73** **Group:** `software.amazon.awssdk` **Name:** `auth` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [auth-2.18.8.jar/META-INF/LICENSE.txt](auth-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [auth-2.18.8.jar/META-INF/NOTICE.txt](auth-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [auth-2.18.25.jar/META-INF/LICENSE.txt](auth-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [auth-2.18.25.jar/META-INF/NOTICE.txt](auth-2.18.25.jar/META-INF/NOTICE.txt)
 
-**74** **Group:** `software.amazon.awssdk` **Name:** `aws-core` **Version:** `2.18.8` 
+**74** **Group:** `software.amazon.awssdk` **Name:** `aws-core` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [aws-core-2.18.8.jar/META-INF/LICENSE.txt](aws-core-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [aws-core-2.18.8.jar/META-INF/NOTICE.txt](aws-core-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [aws-core-2.18.25.jar/META-INF/LICENSE.txt](aws-core-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [aws-core-2.18.25.jar/META-INF/NOTICE.txt](aws-core-2.18.25.jar/META-INF/NOTICE.txt)
 
-**75** **Group:** `software.amazon.awssdk` **Name:** `aws-query-protocol` **Version:** `2.18.8` 
+**75** **Group:** `software.amazon.awssdk` **Name:** `aws-query-protocol` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [aws-query-protocol-2.18.8.jar/META-INF/LICENSE.txt](aws-query-protocol-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [aws-query-protocol-2.18.8.jar/META-INF/NOTICE.txt](aws-query-protocol-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [aws-query-protocol-2.18.25.jar/META-INF/LICENSE.txt](aws-query-protocol-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [aws-query-protocol-2.18.25.jar/META-INF/NOTICE.txt](aws-query-protocol-2.18.25.jar/META-INF/NOTICE.txt)
 
-**76** **Group:** `software.amazon.awssdk` **Name:** `aws-xml-protocol` **Version:** `2.18.8` 
+**76** **Group:** `software.amazon.awssdk` **Name:** `aws-xml-protocol` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [aws-xml-protocol-2.18.8.jar/META-INF/LICENSE.txt](aws-xml-protocol-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [aws-xml-protocol-2.18.8.jar/META-INF/NOTICE.txt](aws-xml-protocol-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [aws-xml-protocol-2.18.25.jar/META-INF/LICENSE.txt](aws-xml-protocol-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [aws-xml-protocol-2.18.25.jar/META-INF/NOTICE.txt](aws-xml-protocol-2.18.25.jar/META-INF/NOTICE.txt)
 
-**77** **Group:** `software.amazon.awssdk` **Name:** `endpoints-spi` **Version:** `2.18.8` 
+**77** **Group:** `software.amazon.awssdk` **Name:** `endpoints-spi` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [endpoints-spi-2.18.8.jar/META-INF/LICENSE.txt](endpoints-spi-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [endpoints-spi-2.18.8.jar/META-INF/NOTICE.txt](endpoints-spi-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [endpoints-spi-2.18.25.jar/META-INF/LICENSE.txt](endpoints-spi-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [endpoints-spi-2.18.25.jar/META-INF/NOTICE.txt](endpoints-spi-2.18.25.jar/META-INF/NOTICE.txt)
 
-**78** **Group:** `software.amazon.awssdk` **Name:** `http-client-spi` **Version:** `2.18.8` 
+**78** **Group:** `software.amazon.awssdk` **Name:** `http-client-spi` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [http-client-spi-2.18.8.jar/META-INF/LICENSE.txt](http-client-spi-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [http-client-spi-2.18.8.jar/META-INF/NOTICE.txt](http-client-spi-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [http-client-spi-2.18.25.jar/META-INF/LICENSE.txt](http-client-spi-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [http-client-spi-2.18.25.jar/META-INF/NOTICE.txt](http-client-spi-2.18.25.jar/META-INF/NOTICE.txt)
 
-**79** **Group:** `software.amazon.awssdk` **Name:** `json-utils` **Version:** `2.18.8` 
+**79** **Group:** `software.amazon.awssdk` **Name:** `json-utils` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [json-utils-2.18.8.jar/META-INF/LICENSE.txt](json-utils-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [json-utils-2.18.8.jar/META-INF/NOTICE.txt](json-utils-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [json-utils-2.18.25.jar/META-INF/LICENSE.txt](json-utils-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [json-utils-2.18.25.jar/META-INF/NOTICE.txt](json-utils-2.18.25.jar/META-INF/NOTICE.txt)
 
-**80** **Group:** `software.amazon.awssdk` **Name:** `metrics-spi` **Version:** `2.18.8` 
+**80** **Group:** `software.amazon.awssdk` **Name:** `metrics-spi` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [metrics-spi-2.18.8.jar/META-INF/LICENSE.txt](metrics-spi-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [metrics-spi-2.18.8.jar/META-INF/NOTICE.txt](metrics-spi-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [metrics-spi-2.18.25.jar/META-INF/LICENSE.txt](metrics-spi-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [metrics-spi-2.18.25.jar/META-INF/NOTICE.txt](metrics-spi-2.18.25.jar/META-INF/NOTICE.txt)
 
-**81** **Group:** `software.amazon.awssdk` **Name:** `netty-nio-client` **Version:** `2.18.8` 
+**81** **Group:** `software.amazon.awssdk` **Name:** `netty-nio-client` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [netty-nio-client-2.18.8.jar/META-INF/LICENSE.txt](netty-nio-client-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [netty-nio-client-2.18.8.jar/META-INF/NOTICE.txt](netty-nio-client-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [netty-nio-client-2.18.25.jar/META-INF/LICENSE.txt](netty-nio-client-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [netty-nio-client-2.18.25.jar/META-INF/NOTICE.txt](netty-nio-client-2.18.25.jar/META-INF/NOTICE.txt)
 
-**82** **Group:** `software.amazon.awssdk` **Name:** `profiles` **Version:** `2.18.8` 
+**82** **Group:** `software.amazon.awssdk` **Name:** `profiles` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [profiles-2.18.8.jar/META-INF/LICENSE.txt](profiles-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [profiles-2.18.8.jar/META-INF/NOTICE.txt](profiles-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [profiles-2.18.25.jar/META-INF/LICENSE.txt](profiles-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [profiles-2.18.25.jar/META-INF/NOTICE.txt](profiles-2.18.25.jar/META-INF/NOTICE.txt)
 
-**83** **Group:** `software.amazon.awssdk` **Name:** `protocol-core` **Version:** `2.18.8` 
+**83** **Group:** `software.amazon.awssdk` **Name:** `protocol-core` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [protocol-core-2.18.8.jar/META-INF/LICENSE.txt](protocol-core-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [protocol-core-2.18.8.jar/META-INF/NOTICE.txt](protocol-core-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [protocol-core-2.18.25.jar/META-INF/LICENSE.txt](protocol-core-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [protocol-core-2.18.25.jar/META-INF/NOTICE.txt](protocol-core-2.18.25.jar/META-INF/NOTICE.txt)
 
-**84** **Group:** `software.amazon.awssdk` **Name:** `regions` **Version:** `2.18.8` 
+**84** **Group:** `software.amazon.awssdk` **Name:** `regions` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [regions-2.18.8.jar/META-INF/LICENSE.txt](regions-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [regions-2.18.8.jar/META-INF/NOTICE.txt](regions-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [regions-2.18.25.jar/META-INF/LICENSE.txt](regions-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [regions-2.18.25.jar/META-INF/NOTICE.txt](regions-2.18.25.jar/META-INF/NOTICE.txt)
 
-**85** **Group:** `software.amazon.awssdk` **Name:** `s3` **Version:** `2.18.8` 
+**85** **Group:** `software.amazon.awssdk` **Name:** `s3` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [s3-2.18.8.jar/META-INF/LICENSE.txt](s3-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [s3-2.18.8.jar/META-INF/NOTICE.txt](s3-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [s3-2.18.25.jar/META-INF/LICENSE.txt](s3-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [s3-2.18.25.jar/META-INF/NOTICE.txt](s3-2.18.25.jar/META-INF/NOTICE.txt)
 
-**86** **Group:** `software.amazon.awssdk` **Name:** `sdk-core` **Version:** `2.18.8` 
+**86** **Group:** `software.amazon.awssdk` **Name:** `sdk-core` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [sdk-core-2.18.8.jar/META-INF/LICENSE.txt](sdk-core-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [sdk-core-2.18.8.jar/META-INF/NOTICE.txt](sdk-core-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [sdk-core-2.18.25.jar/META-INF/LICENSE.txt](sdk-core-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [sdk-core-2.18.25.jar/META-INF/NOTICE.txt](sdk-core-2.18.25.jar/META-INF/NOTICE.txt)
 
-**87** **Group:** `software.amazon.awssdk` **Name:** `sts` **Version:** `2.18.8` 
+**87** **Group:** `software.amazon.awssdk` **Name:** `sts` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [sts-2.18.8.jar/META-INF/LICENSE.txt](sts-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [sts-2.18.8.jar/META-INF/NOTICE.txt](sts-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [sts-2.18.25.jar/META-INF/LICENSE.txt](sts-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [sts-2.18.25.jar/META-INF/NOTICE.txt](sts-2.18.25.jar/META-INF/NOTICE.txt)
 
-**88** **Group:** `software.amazon.awssdk` **Name:** `third-party-jackson-core` **Version:** `2.18.8` 
+**88** **Group:** `software.amazon.awssdk` **Name:** `third-party-jackson-core` **Version:** `2.18.25` 
 > - **POM Project URL**: [https://aws.amazon.com/sdkforjava](https://aws.amazon.com/sdkforjava)
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [third-party-jackson-core-2.18.8.jar/META-INF/LICENSE](third-party-jackson-core-2.18.8.jar/META-INF/LICENSE) 
-    - [third-party-jackson-core-2.18.8.jar/META-INF/LICENSE.txt](third-party-jackson-core-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [third-party-jackson-core-2.18.8.jar/META-INF/NOTICE](third-party-jackson-core-2.18.8.jar/META-INF/NOTICE) 
-    - [third-party-jackson-core-2.18.8.jar/META-INF/NOTICE.txt](third-party-jackson-core-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [third-party-jackson-core-2.18.25.jar/META-INF/LICENSE](third-party-jackson-core-2.18.25.jar/META-INF/LICENSE) 
+    - [third-party-jackson-core-2.18.25.jar/META-INF/LICENSE.txt](third-party-jackson-core-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [third-party-jackson-core-2.18.25.jar/META-INF/NOTICE](third-party-jackson-core-2.18.25.jar/META-INF/NOTICE) 
+    - [third-party-jackson-core-2.18.25.jar/META-INF/NOTICE.txt](third-party-jackson-core-2.18.25.jar/META-INF/NOTICE.txt)
 
-**89** **Group:** `software.amazon.awssdk` **Name:** `utils` **Version:** `2.18.8` 
+**89** **Group:** `software.amazon.awssdk` **Name:** `utils` **Version:** `2.18.25` 
 > - **POM License**: Apache License, Version 2.0 - [https://aws.amazon.com/apache2.0](https://aws.amazon.com/apache2.0)
-> - **Embedded license files**: [utils-2.18.8.jar/META-INF/LICENSE.txt](utils-2.18.8.jar/META-INF/LICENSE.txt) 
-    - [utils-2.18.8.jar/META-INF/NOTICE.txt](utils-2.18.8.jar/META-INF/NOTICE.txt)
+> - **Embedded license files**: [utils-2.18.25.jar/META-INF/LICENSE.txt](utils-2.18.25.jar/META-INF/LICENSE.txt) 
+    - [utils-2.18.25.jar/META-INF/NOTICE.txt](utils-2.18.25.jar/META-INF/NOTICE.txt)
 
 **90** **Group:** `software.amazon.eventstream` **Name:** `eventstream` **Version:** `1.0.1` 
 > - **POM Project URL**: [https://github.com/awslabs/aws-eventstream-java](https://github.com/awslabs/aws-eventstream-java)
@@ -834,203 +834,187 @@ _2022-11-02 17:31:33 UTC_
 
 ## The Apache License, Version 2.0
 
-**143** **Group:** `com.linecorp.armeria` **Name:** `armeria` **Version:** `1.20.1` 
+**143** **Group:** `com.linecorp.armeria` **Name:** `armeria` **Version:** `1.20.3` 
 > - **POM Project URL**: [https://armeria.dev/](https://armeria.dev/)
 > - **POM License**: The Apache License, Version 2.0 - [https://www.apache.org/license/LICENSE-2.0.txt](https://www.apache.org/license/LICENSE-2.0.txt)
-> - **Embedded license files**: [armeria-1.20.1.jar/META-INF/LICENSE](armeria-1.20.1.jar/META-INF/LICENSE)
+> - **Embedded license files**: [armeria-1.20.3.jar/META-INF/LICENSE](armeria-1.20.3.jar/META-INF/LICENSE)
 
-**144** **Group:** `com.linecorp.armeria` **Name:** `armeria-grpc` **Version:** `1.20.1` 
-> - **POM Project URL**: [https://armeria.dev/](https://armeria.dev/)
-> - **POM License**: The Apache License, Version 2.0 - [https://www.apache.org/license/LICENSE-2.0.txt](https://www.apache.org/license/LICENSE-2.0.txt)
-
-**145** **Group:** `com.linecorp.armeria` **Name:** `armeria-grpc-protocol` **Version:** `1.20.1` 
+**144** **Group:** `com.linecorp.armeria` **Name:** `armeria-grpc` **Version:** `1.20.3` 
 > - **POM Project URL**: [https://armeria.dev/](https://armeria.dev/)
 > - **POM License**: The Apache License, Version 2.0 - [https://www.apache.org/license/LICENSE-2.0.txt](https://www.apache.org/license/LICENSE-2.0.txt)
 
-**146** **Group:** `com.linecorp.armeria` **Name:** `armeria-protobuf` **Version:** `1.20.1` 
+**145** **Group:** `com.linecorp.armeria` **Name:** `armeria-grpc-protocol` **Version:** `1.20.3` 
 > - **POM Project URL**: [https://armeria.dev/](https://armeria.dev/)
 > - **POM License**: The Apache License, Version 2.0 - [https://www.apache.org/license/LICENSE-2.0.txt](https://www.apache.org/license/LICENSE-2.0.txt)
 
-**147** **Group:** `io.opentelemetry` **Name:** `opentelemetry-api` **Version:** `1.19.0` 
+**146** **Group:** `com.linecorp.armeria` **Name:** `armeria-protobuf` **Version:** `1.20.3` 
+> - **POM Project URL**: [https://armeria.dev/](https://armeria.dev/)
+> - **POM License**: The Apache License, Version 2.0 - [https://www.apache.org/license/LICENSE-2.0.txt](https://www.apache.org/license/LICENSE-2.0.txt)
+
+**147** **Group:** `io.opentelemetry` **Name:** `opentelemetry-api` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**148** **Group:** `io.opentelemetry` **Name:** `opentelemetry-api-logs` **Version:** `1.19.0-alpha` 
+**148** **Group:** `io.opentelemetry` **Name:** `opentelemetry-context` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**149** **Group:** `io.opentelemetry` **Name:** `opentelemetry-context` **Version:** `1.19.0` 
+**149** **Group:** `io.opentelemetry` **Name:** `opentelemetry-extension-aws` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**150** **Group:** `io.opentelemetry` **Name:** `opentelemetry-extension-aws` **Version:** `1.19.0` 
+**150** **Group:** `io.opentelemetry` **Name:** `opentelemetry-extension-trace-propagators` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**151** **Group:** `io.opentelemetry` **Name:** `opentelemetry-extension-trace-propagators` **Version:** `1.19.0` 
+**151** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-common` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**152** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk` **Version:** `1.19.0` 
+**152** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-trace` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**153** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-common` **Version:** `1.19.0` 
+**153** **Group:** `io.opentelemetry` **Name:** `opentelemetry-semconv` **Version:** `1.20.1-alpha` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**154** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-extension-aws` **Version:** `1.19.0` 
-> - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
-> - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-**155** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-logs` **Version:** `1.19.0-alpha` 
-> - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
-> - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-**156** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-metrics` **Version:** `1.19.0` 
-> - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
-> - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-**157** **Group:** `io.opentelemetry` **Name:** `opentelemetry-sdk-trace` **Version:** `1.19.0` 
-> - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
-> - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-**158** **Group:** `io.opentelemetry` **Name:** `opentelemetry-semconv` **Version:** `1.19.0-alpha` 
-> - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java](https://github.com/open-telemetry/opentelemetry-java)
-> - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-
-**159** **Group:** `io.opentelemetry.contrib` **Name:** `opentelemetry-aws-xray` **Version:** `1.19.1` 
+**154** **Group:** `io.opentelemetry.contrib` **Name:** `opentelemetry-aws-xray` **Version:** `1.20.1` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java-contrib](https://github.com/open-telemetry/opentelemetry-java-contrib)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**160** **Group:** `io.opentelemetry.proto` **Name:** `opentelemetry-proto` **Version:** `0.19.0-alpha` 
+**155** **Group:** `io.opentelemetry.contrib` **Name:** `opentelemetry-aws-xray-propagator` **Version:** `1.20.1-alpha` 
+> - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-java-contrib](https://github.com/open-telemetry/opentelemetry-java-contrib)
+> - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+**156** **Group:** `io.opentelemetry.proto` **Name:** `opentelemetry-proto` **Version:** `0.19.0-alpha` 
 > - **POM Project URL**: [https://github.com/open-telemetry/opentelemetry-proto-java](https://github.com/open-telemetry/opentelemetry-proto-java)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**161** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib` **Version:** `1.6.21` 
+**157** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib` **Version:** `1.6.21` 
 > - **POM Project URL**: [https://kotlinlang.org/](https://kotlinlang.org/)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**162** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib-common` **Version:** `1.6.21` 
+**158** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib-common` **Version:** `1.6.21` 
 > - **POM Project URL**: [https://kotlinlang.org/](https://kotlinlang.org/)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**163** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib-jdk7` **Version:** `1.6.21` 
+**159** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib-jdk7` **Version:** `1.6.21` 
 > - **POM Project URL**: [https://kotlinlang.org/](https://kotlinlang.org/)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**164** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib-jdk8` **Version:** `1.6.21` 
+**160** **Group:** `org.jetbrains.kotlin` **Name:** `kotlin-stdlib-jdk8` **Version:** `1.6.21` 
 > - **POM Project URL**: [https://kotlinlang.org/](https://kotlinlang.org/)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**165** **Group:** `software.amazon.ion` **Name:** `ion-java` **Version:** `1.0.2` 
+**161** **Group:** `software.amazon.ion` **Name:** `ion-java` **Version:** `1.0.2` 
 > - **POM Project URL**: [https://github.com/amznlabs/ion-java/](https://github.com/amznlabs/ion-java/)
 > - **POM License**: The Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 ## The Apache Software License, Version 2.0
 
-**166** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-annotations` **Version:** `2.13.4` 
-> - **Project URL**: [http://github.com/FasterXML/jackson](http://github.com/FasterXML/jackson)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-annotations-2.13.4.jar/META-INF/LICENSE](jackson-annotations-2.13.4.jar/META-INF/LICENSE)
+**162** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-annotations` **Version:** `2.14.1` 
+> - **Project URL**: [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **Embedded license files**: [jackson-annotations-2.14.1.jar/META-INF/LICENSE](jackson-annotations-2.14.1.jar/META-INF/LICENSE)
 
-**167** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-core` **Version:** `2.13.4` 
+**163** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-core` **Version:** `2.14.1` 
 > - **Project URL**: [https://github.com/FasterXML/jackson-core](https://github.com/FasterXML/jackson-core)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-core-2.13.4.jar/META-INF/LICENSE](jackson-core-2.13.4.jar/META-INF/LICENSE) 
-    - [jackson-core-2.13.4.jar/META-INF/NOTICE](jackson-core-2.13.4.jar/META-INF/NOTICE)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **Embedded license files**: [jackson-core-2.14.1.jar/META-INF/LICENSE](jackson-core-2.14.1.jar/META-INF/LICENSE) 
+    - [jackson-core-2.14.1.jar/META-INF/NOTICE](jackson-core-2.14.1.jar/META-INF/NOTICE)
 
-**168** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-databind` **Version:** `2.13.4.2` 
-> - **Project URL**: [http://github.com/FasterXML/jackson](http://github.com/FasterXML/jackson)
+**164** **Group:** `com.fasterxml.jackson.core` **Name:** `jackson-databind` **Version:** `2.14.1` 
+> - **Project URL**: [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-databind-2.13.4.2.jar/META-INF/LICENSE](jackson-databind-2.13.4.2.jar/META-INF/LICENSE) 
-    - [jackson-databind-2.13.4.2.jar/META-INF/NOTICE](jackson-databind-2.13.4.2.jar/META-INF/NOTICE)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **Embedded license files**: [jackson-databind-2.14.1.jar/META-INF/LICENSE](jackson-databind-2.14.1.jar/META-INF/LICENSE) 
+    - [jackson-databind-2.14.1.jar/META-INF/NOTICE](jackson-databind-2.14.1.jar/META-INF/NOTICE)
 
-**169** **Group:** `com.fasterxml.jackson.dataformat` **Name:** `jackson-dataformat-cbor` **Version:** `2.13.4` 
-> - **Project URL**: [http://github.com/FasterXML/jackson-dataformats-binary](http://github.com/FasterXML/jackson-dataformats-binary)
+**165** **Group:** `com.fasterxml.jackson.dataformat` **Name:** `jackson-dataformat-cbor` **Version:** `2.14.1` 
+> - **Project URL**: [https://github.com/FasterXML/jackson-dataformats-binary](https://github.com/FasterXML/jackson-dataformats-binary)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
+> - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**170** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jdk8` **Version:** `2.13.4` 
+**166** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jdk8` **Version:** `2.14.1` 
 > - **Manifest Project URL**: [https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8](https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jdk8)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**171** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jsr310` **Version:** `2.13.4` 
+**167** **Group:** `com.fasterxml.jackson.datatype` **Name:** `jackson-datatype-jsr310` **Version:** `2.14.1` 
 > - **Manifest Project URL**: [https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310](https://github.com/FasterXML/jackson-modules-java8/jackson-datatype-jsr310)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
-> - **Embedded license files**: [jackson-datatype-jsr310-2.13.4.jar/META-INF/LICENSE](jackson-datatype-jsr310-2.13.4.jar/META-INF/LICENSE)
+> - **Embedded license files**: [jackson-datatype-jsr310-2.14.1.jar/META-INF/LICENSE](jackson-datatype-jsr310-2.14.1.jar/META-INF/LICENSE)
 
-**172** **Group:** `com.fasterxml.jackson.module` **Name:** `jackson-module-parameter-names` **Version:** `2.13.4` 
+**168** **Group:** `com.fasterxml.jackson.module` **Name:** `jackson-module-parameter-names` **Version:** `2.14.1` 
 > - **Manifest Project URL**: [https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names](https://github.com/FasterXML/jackson-modules-java8/jackson-module-parameter-names)
 > - **POM License**: Apache License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**173** **Group:** `com.google.code.findbugs` **Name:** `jsr305` **Version:** `3.0.2` 
+**169** **Group:** `com.google.code.findbugs` **Name:** `jsr305` **Version:** `3.0.2` 
 > - **POM Project URL**: [http://findbugs.sourceforge.net/](http://findbugs.sourceforge.net/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**174** **Group:** `com.google.guava` **Name:** `failureaccess` **Version:** `1.0.1` 
+**170** **Group:** `com.google.guava` **Name:** `failureaccess` **Version:** `1.0.1` 
 > - **Manifest Project URL**: [https://github.com/google/guava/](https://github.com/google/guava/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**175** **Group:** `com.google.guava` **Name:** `listenablefuture` **Version:** `9999.0-empty-to-avoid-conflict-with-guava` 
+**171** **Group:** `com.google.guava` **Name:** `listenablefuture` **Version:** `9999.0-empty-to-avoid-conflict-with-guava` 
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**176** **Group:** `com.google.j2objc` **Name:** `j2objc-annotations` **Version:** `1.3` 
+**172** **Group:** `com.google.j2objc` **Name:** `j2objc-annotations` **Version:** `1.3` 
 > - **POM Project URL**: [https://github.com/google/j2objc/](https://github.com/google/j2objc/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**177** **Group:** `com.sparkjava` **Name:** `spark-core` **Version:** `2.9.4` 
+**173** **Group:** `com.sparkjava` **Name:** `spark-core` **Version:** `2.9.4` 
 > - **POM Project URL**: [http://www.sparkjava.com](http://www.sparkjava.com)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**178** **Group:** `com.squareup.okhttp3` **Name:** `okhttp` **Version:** `4.10.0` 
+**174** **Group:** `com.squareup.okhttp3` **Name:** `okhttp` **Version:** `4.10.0` 
 > - **POM Project URL**: [https://square.github.io/okhttp/](https://square.github.io/okhttp/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **Embedded license files**: [okhttp-4.10.0.jar/okhttp3/internal/publicsuffix/NOTICE](okhttp-4.10.0.jar/okhttp3/internal/publicsuffix/NOTICE)
 
-**179** **Group:** `com.squareup.okio` **Name:** `okio-jvm` **Version:** `3.0.0` 
+**175** **Group:** `com.squareup.okio` **Name:** `okio-jvm` **Version:** `3.0.0` 
 > - **POM Project URL**: [https://github.com/square/okio/](https://github.com/square/okio/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**180** **Group:** `commons-logging` **Name:** `commons-logging` **Version:** `1.2` 
+**176** **Group:** `commons-logging` **Name:** `commons-logging` **Version:** `1.2` 
 > - **Project URL**: [http://commons.apache.org/proper/commons-logging/](http://commons.apache.org/proper/commons-logging/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **Embedded license files**: [commons-logging-1.2.jar/META-INF/LICENSE.txt](commons-logging-1.2.jar/META-INF/LICENSE.txt) 
     - [commons-logging-1.2.jar/META-INF/NOTICE.txt](commons-logging-1.2.jar/META-INF/NOTICE.txt)
 
-**181** **Group:** `io.micrometer` **Name:** `micrometer-core` **Version:** `1.9.5` 
+**177** **Group:** `io.micrometer` **Name:** `micrometer-core` **Version:** `1.9.5` 
 > - **POM Project URL**: [https://github.com/micrometer-metrics/micrometer](https://github.com/micrometer-metrics/micrometer)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **Embedded license files**: [micrometer-core-1.9.5.jar/META-INF/LICENSE](micrometer-core-1.9.5.jar/META-INF/LICENSE) 
     - [micrometer-core-1.9.5.jar/META-INF/NOTICE](micrometer-core-1.9.5.jar/META-INF/NOTICE)
 
-**182** **Group:** `io.netty` **Name:** `netty-tcnative-boringssl-static` **Version:** `2.0.54.Final` 
+**178** **Group:** `io.netty` **Name:** `netty-tcnative-boringssl-static` **Version:** `2.0.54.Final` 
 > - **Manifest Project URL**: [https://netty.io/](https://netty.io/)
 > - **POM Project URL**: [https://github.com/netty/netty-tcnative/netty-tcnative-boringssl-static/](https://github.com/netty/netty-tcnative/netty-tcnative-boringssl-static/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 > - **Embedded license files**: [netty-tcnative-boringssl-static-2.0.54.Final-linux-x86_64.jar/META-INF/LICENSE.txt](netty-tcnative-boringssl-static-2.0.54.Final-linux-x86_64.jar/META-INF/LICENSE.txt) 
     - [netty-tcnative-boringssl-static-2.0.54.Final-linux-x86_64.jar/META-INF/NOTICE.txt](netty-tcnative-boringssl-static-2.0.54.Final-linux-x86_64.jar/META-INF/NOTICE.txt)
 
-**183** **Group:** `io.netty` **Name:** `netty-tcnative-classes` **Version:** `2.0.54.Final` 
+**179** **Group:** `io.netty` **Name:** `netty-tcnative-classes` **Version:** `2.0.54.Final` 
 > - **Manifest Project URL**: [https://netty.io/](https://netty.io/)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**184** **Group:** `org.codehaus.mojo` **Name:** `animal-sniffer-annotations` **Version:** `1.21` 
+**180** **Group:** `org.codehaus.mojo` **Name:** `animal-sniffer-annotations` **Version:** `1.21` 
 > - **POM License**: MIT license - [http://www.opensource.org/licenses/mit-license.php](http://www.opensource.org/licenses/mit-license.php)
 > - **POM License**: The Apache Software License, Version 2.0 - [https://www.apache.org/licenses/LICENSE-2.0.txt](https://www.apache.org/licenses/LICENSE-2.0.txt)
 
-**185** **Group:** `org.jetbrains` **Name:** `annotations` **Version:** `13.0` 
+**181** **Group:** `org.jetbrains` **Name:** `annotations` **Version:** `13.0` 
 > - **POM Project URL**: [http://www.jetbrains.org](http://www.jetbrains.org)
 > - **POM License**: The Apache Software License, Version 2.0 - [http://www.apache.org/licenses/LICENSE-2.0.txt](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 ## The MIT License
 
-**186** **Group:** `org.checkerframework` **Name:** `checker-qual` **Version:** `3.12.0` 
+**182** **Group:** `org.checkerframework` **Name:** `checker-qual` **Version:** `3.12.0` 
 > - **Manifest License**: MIT (Not Packaged)
 > - **POM Project URL**: [https://checkerframework.org](https://checkerframework.org)
 > - **POM License**: The MIT License - [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT)
@@ -1038,12 +1022,12 @@ _2022-11-02 17:31:33 UTC_
 
 ## Unknown
 
-**187** **Group:** `com.squareup.okio` **Name:** `okio` **Version:** `3.0.0` 
+**183** **Group:** `com.squareup.okio` **Name:** `okio` **Version:** `3.0.0` 
 
-**188** **Group:** `io.opentelemetry` **Name:** `opentelemetry-bom` **Version:** `1.19.0` 
+**184** **Group:** `io.opentelemetry` **Name:** `opentelemetry-bom` **Version:** `1.20.1` 
 
-**189** **Group:** `io.opentelemetry` **Name:** `opentelemetry-bom-alpha` **Version:** `1.19.0-alpha` 
+**185** **Group:** `io.opentelemetry` **Name:** `opentelemetry-bom-alpha` **Version:** `1.20.1-alpha` 
 
-**190** **Group:** `io.opentelemetry.instrumentation` **Name:** `opentelemetry-instrumentation-bom` **Version:** `1.19.2` 
+**186** **Group:** `io.opentelemetry.instrumentation` **Name:** `opentelemetry-instrumentation-bom` **Version:** `1.20.2` 
 
 
