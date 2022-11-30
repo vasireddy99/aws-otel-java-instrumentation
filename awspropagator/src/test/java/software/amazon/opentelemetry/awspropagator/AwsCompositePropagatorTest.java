@@ -27,7 +27,6 @@ import io.opentelemetry.api.trace.propagation.W3CTraceContextPropagator;
 import io.opentelemetry.context.Context;
 import io.opentelemetry.context.propagation.TextMapGetter;
 import io.opentelemetry.context.propagation.TextMapPropagator;
-import io.opentelemetry.extension.aws.AwsXrayPropagator;
 import io.opentelemetry.extension.trace.propagation.B3Propagator;
 import java.util.HashMap;
 import java.util.Map;
@@ -82,7 +81,7 @@ class AwsCompositePropagatorTest {
     awsPropagator.inject(context, map2, Map::put);
 
     Map<String, String> map3 = new HashMap<>();
-    AwsXrayPropagator.getInstance().inject(context, map3, Map::put);
+    io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance().inject(context, map3, Map::put);
     assertThat(map2).containsExactlyInAnyOrderEntriesOf(map3);
   }
 
@@ -121,7 +120,7 @@ class AwsCompositePropagatorTest {
     Map<String, String> map3 = new HashMap<>();
     propagator.inject(context, map3, Map::put);
 
-    if (propagator != AwsXrayPropagator.getInstance()) {
+    if (propagator != io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance()) {
       W3CBaggagePropagator.getInstance().inject(context, map3, Map::put);
     }
 
@@ -131,7 +130,8 @@ class AwsCompositePropagatorTest {
   @Test
   void awsPrioritized() {
     Map<String, String> map = new HashMap<>();
-    AwsXrayPropagator.getInstance().inject(Context.root().with(SPAN1), map, Map::put);
+    io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance()
+        .inject(Context.root().with(SPAN1), map, Map::put);
     W3CTraceContextPropagator.getInstance().inject(Context.root().with(SPAN2), map, Map::put);
     assertThat(
             Span.fromContext(
@@ -145,7 +145,7 @@ class AwsCompositePropagatorTest {
     @Override
     public Stream<? extends Arguments> provideArguments(ExtensionContext context) {
       return Stream.of(
-              AwsXrayPropagator.getInstance(),
+              io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance(),
               W3CTraceContextPropagator.getInstance(),
               B3Propagator.injectingMultiHeaders())
           .map(Arguments::of);

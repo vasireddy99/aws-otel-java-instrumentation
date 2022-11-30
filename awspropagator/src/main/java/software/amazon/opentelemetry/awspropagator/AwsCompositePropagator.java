@@ -24,7 +24,6 @@ import io.opentelemetry.context.ContextKey;
 import io.opentelemetry.context.propagation.TextMapGetter;
 import io.opentelemetry.context.propagation.TextMapPropagator;
 import io.opentelemetry.context.propagation.TextMapSetter;
-import io.opentelemetry.extension.aws.AwsXrayPropagator;
 import io.opentelemetry.extension.trace.propagation.B3Propagator;
 import java.util.Arrays;
 import java.util.Collection;
@@ -44,10 +43,11 @@ import java.util.stream.Collectors;
 public final class AwsCompositePropagator implements TextMapPropagator {
 
   // The currently supported propagators. This may grow or be made configurable in the future.
+  @SuppressWarnings("deprecation")
   private static final List<TextMapPropagator> PROPAGATORS =
       Arrays.asList(
           W3CBaggagePropagator.getInstance(),
-          AwsXrayPropagator.getInstance(),
+          io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance(),
           W3CTraceContextPropagator.getInstance(),
           B3Propagator.injectingMultiHeaders());
 
@@ -93,7 +93,9 @@ public final class AwsCompositePropagator implements TextMapPropagator {
       if (extractedPropagator != null) {
         extractedPropagator.inject(context, carrier, setter);
         Baggage baggage = Baggage.fromContextOrNull(context);
-        if (baggage != null && extractedPropagator != AwsXrayPropagator.getInstance()) {
+        if (baggage != null
+            && extractedPropagator
+                != io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance()) {
           // We extracted a span from a format not supporting baggage within the trace context
           // itself, for example b3. if we have baggage we just propagate using w3c
           // baggage.
@@ -104,7 +106,7 @@ public final class AwsCompositePropagator implements TextMapPropagator {
     }
     // Unless injecting in the same format as extracted, always inject X-Amzn-Trace-Id, the only
     // format recognized by all AWS services as of now.
-    AwsXrayPropagator.getInstance().inject(context, carrier, setter);
+    io.opentelemetry.extension.aws.AwsXrayPropagator.getInstance().inject(context, carrier, setter);
   }
 
   @Override
