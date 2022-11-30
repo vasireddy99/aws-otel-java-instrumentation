@@ -27,8 +27,8 @@ data class DependencySet(val group: String, val version: String, val modules: Li
 val TEST_SNAPSHOTS = rootProject.findProperty("testUpstreamSnapshots") == "true"
 
 // This is the only version that affects the released artifact.
-val otelVersion = "1.19.2"
-val otelSnapshotVersion = "1.20.0"
+val otelVersion = "1.20.2"
+val otelSnapshotVersion = "1.21.0"
 
 // All versions below are only used in testing and do not affect the released artifact.
 
