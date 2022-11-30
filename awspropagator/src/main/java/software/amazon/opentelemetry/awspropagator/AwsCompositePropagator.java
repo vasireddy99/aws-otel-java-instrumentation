@@ -25,6 +25,7 @@ import io.opentelemetry.context.propagation.TextMapGetter;
 import io.opentelemetry.context.propagation.TextMapPropagator;
 import io.opentelemetry.context.propagation.TextMapSetter;
 import io.opentelemetry.extension.aws.AwsXrayPropagator;
+// import io.opentelemetry.contrib.awsxray.propagator.AwsXrayPropagator;
 import io.opentelemetry.extension.trace.propagation.B3Propagator;
 import java.util.Arrays;
 import java.util.Collection;
@@ -44,6 +45,7 @@ import java.util.stream.Collectors;
 public final class AwsCompositePropagator implements TextMapPropagator {
 
   // The currently supported propagators. This may grow or be made configurable in the future.
+  // @SuppressWarnings("deprecation")
   private static final List<TextMapPropagator> PROPAGATORS =
       Arrays.asList(
           W3CBaggagePropagator.getInstance(),

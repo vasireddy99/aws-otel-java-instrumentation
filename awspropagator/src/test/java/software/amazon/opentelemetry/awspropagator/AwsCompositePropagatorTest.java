@@ -28,6 +28,7 @@ import io.opentelemetry.context.Context;
 import io.opentelemetry.context.propagation.TextMapGetter;
 import io.opentelemetry.context.propagation.TextMapPropagator;
 import io.opentelemetry.extension.aws.AwsXrayPropagator;
+// import io.opentelemetry.contrib.awsxray.propagator.AwsXrayPropagator;
 import io.opentelemetry.extension.trace.propagation.B3Propagator;
 import java.util.HashMap;
 import java.util.Map;
@@ -129,6 +130,7 @@ class AwsCompositePropagatorTest {
   }
 
   @Test
+  // @SuppressWarnings("deprecation")
   void awsPrioritized() {
     Map<String, String> map = new HashMap<>();
     AwsXrayPropagator.getInstance().inject(Context.root().with(SPAN1), map, Map::put);
