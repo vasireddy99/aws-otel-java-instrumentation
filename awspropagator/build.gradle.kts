@@ -24,6 +24,7 @@ base {
 
 dependencies {
   api("io.opentelemetry:opentelemetry-context")
+  implementation("io.opentelemetry.contrib:opentelemetry-aws-resources")
   implementation("io.opentelemetry:opentelemetry-extension-aws")
   implementation("io.opentelemetry:opentelemetry-extension-trace-propagators")
 }
