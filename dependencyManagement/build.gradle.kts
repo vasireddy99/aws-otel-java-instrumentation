@@ -27,8 +27,8 @@ data class DependencySet(val group: String, val version: String, val modules: Li
 val TEST_SNAPSHOTS = rootProject.findProperty("testUpstreamSnapshots") == "true"
 
 // This is the only version that affects the released artifact.
-val otelVersion = "1.20.0"
-val otelSnapshotVersion = "1.21.0"
+val otelVersion = "1.19.2"
+val otelSnapshotVersion = "1.20.0"
 
 // All versions below are only used in testing and do not affect the released artifact.
 
@@ -42,7 +42,7 @@ val DEPENDENCY_BOMS = listOf(
   "io.opentelemetry.instrumentation:opentelemetry-instrumentation-bom-alpha:${if (!TEST_SNAPSHOTS) "$otelVersion-alpha" else "$otelSnapshotVersion-alpha-SNAPSHOT"}",
   "org.apache.logging.log4j:log4j-bom:2.19.0",
   "org.junit:junit-bom:5.9.1",
-  "org.springframework.boot:spring-boot-dependencies:2.7.5",
+  "org.springframework.boot:spring-boot-dependencies:2.7.6",
   "org.testcontainers:testcontainers-bom:1.17.5",
   "software.amazon.awssdk:bom:2.18.11"
 )
