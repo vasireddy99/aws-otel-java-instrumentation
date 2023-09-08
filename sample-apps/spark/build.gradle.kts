@@ -17,6 +17,7 @@ dependencies {
   implementation("org.apache.logging.log4j:log4j-core")
   implementation("software.amazon.awssdk:s3")
   implementation("software.amazon.awssdk:sts")
+  implementation("io.opentelemetry.instrumentation:opentelemetry-log4j-appender-2.17")
 
   runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl")
 }
@@ -28,9 +29,9 @@ application {
 jib {
   configureImages(
     "public.ecr.aws/aws-otel-test/aws-opentelemetry-java-base:alpha",
-    "public.ecr.aws/aws-otel-test/aws-otel-java-spark",
-    localDocker = rootProject.property("localDocker")!!.equals("true"),
-    multiPlatform = !rootProject.property("localDocker")!!.equals("true"),
+    "public.ecr.aws/u4v1i0d4/spark",
+    localDocker = true,
+    multiPlatform = false,
     tags = setOf("latest", "${System.getenv("COMMIT_HASH")}"),
   )
 }
@@ -46,9 +47,10 @@ tasks {
     val j = JibExtension(project)
     j.configureImages(
       "eclipse-temurin:17",
-      "public.ecr.aws/aws-otel-test/aws-otel-java-spark-without-auto-instrumentation-agent",
-      localDocker = false,
-      multiPlatform = !rootProject.property("localDocker")!!.equals("true"),
+//      "public.ecr.aws/aws-otel-test/aws-otel-java-spark-without-auto-instrumentation-agent",
+      "public.ecr.aws/u4v1i0d4/spark",
+      localDocker = true,
+      multiPlatform = false,
       tags = setOf("latest", "${System.getenv("COMMIT_HASH")}"),
     )
     setJibExtension(j)

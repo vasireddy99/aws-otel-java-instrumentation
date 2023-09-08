@@ -97,7 +97,7 @@ public class App {
 
           s3.listBuckets();
 
-          return getXrayTraceId();
+          return "Log message sent to otelLogger";
         });
 
     /** record a start time for each request */
