@@ -16,6 +16,7 @@ import software.amazon.awssdk.services.s3.S3Client;
 
 public class App {
   private static final Logger logger = LogManager.getLogger();
+  private static final Logger otelLogger = LogManager.getLogger("adot.test.logs");
   private static final boolean shouldSampleAppLog =
       System.getenv().getOrDefault("SAMPLE_APP_LOG_LEVEL", "INFO").equals("INFO");
 
@@ -79,6 +80,20 @@ public class App {
           if (shouldSampleAppLog) {
             logger.info("Executing aws-sdk-all");
           }
+
+          s3.listBuckets();
+
+          return getXrayTraceId();
+        });
+
+    /** logs test request */
+    get(
+        "/logs-sdk-call",
+        (req, res) -> {
+          if (shouldSampleAppLog) {
+            logger.info("Executing logs-sdk-all");
+          }
+          otelLogger.info("Executed log call");
 
           s3.listBuckets();
 
