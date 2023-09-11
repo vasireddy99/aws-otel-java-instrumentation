@@ -18,6 +18,7 @@ dependencies {
   implementation("software.amazon.awssdk:s3")
   implementation("software.amazon.awssdk:sts")
   implementation("io.opentelemetry.instrumentation:opentelemetry-log4j-appender-2.17")
+  implementation("io.opentelemetry:opentelemetry-sdk")
 
   runtimeOnly("org.apache.logging.log4j:log4j-slf4j-impl")
 }

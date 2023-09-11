@@ -4,14 +4,16 @@
         <Console name="Console" target="SYSTEM_OUT">
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %notEmpty{AWS-XRAY-TRACE-ID: %X{AWS-XRAY-TRACE-ID} }%-5p %m%n"/>
         </Console>
-    <OpenTelemetry name="OpenTelemetryAppender"/>
+    <OpenTelemetry name="OpenTelemetryAppender"
+       captureMapMessageAttributes="true"
+       captureMarkerAttribute="true"
+       captureContextDataAttributes="*"
+    />
   </Appenders>
   <Loggers>
-    <Logger name="adot.test.logs" level="info" additivity="false">
-      <AppenderRef ref="OpenTelemetryAppender"/>
-    </Logger>
-    <Root>
-      <AppenderRef ref="Console" level="All"/>
-    </Root>
+      <Root>
+          <AppenderRef ref="OpenTelemetryAppender"/>
+          <AppenderRef ref="Console" level="All"/>
+      </Root>
   </Loggers>
 </Configuration>

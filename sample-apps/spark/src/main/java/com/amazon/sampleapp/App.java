@@ -3,6 +3,8 @@ package com.amazon.sampleapp;
 import static spark.Spark.*;
 
 import io.opentelemetry.api.trace.Span;
+import io.opentelemetry.instrumentation.log4j.appender.v2_17.OpenTelemetryAppender;
+import io.opentelemetry.sdk.OpenTelemetrySdk;
 import java.io.IOException;
 import java.io.UncheckedIOException;
 import java.util.concurrent.ThreadLocalRandom;
@@ -16,7 +18,8 @@ import software.amazon.awssdk.services.s3.S3Client;
 
 public class App {
   private static final Logger logger = LogManager.getLogger();
-  private static final Logger otelLogger = LogManager.getLogger("adot.test.logs");
+  private static final OpenTelemetrySdk openTelemetrySdk =
+      OpenTelemetrySdk.builder().buildAndRegisterGlobal();
   private static final boolean shouldSampleAppLog =
       System.getenv().getOrDefault("SAMPLE_APP_LOG_LEVEL", "INFO").equals("INFO");
 
@@ -31,6 +34,9 @@ public class App {
     MetricEmitter metricEmitter = buildMetricEmitter();
     final Call.Factory httpClient = new OkHttpClient();
     final S3Client s3 = S3Client.builder().build();
+
+    // configure the OpenTelemetry SDK
+    OpenTelemetryAppender.install(openTelemetrySdk);
     String port;
     String host;
     String listenAddress = System.getenv("LISTEN_ADDRESS");
@@ -93,11 +99,10 @@ public class App {
           if (shouldSampleAppLog) {
             logger.info("Executing logs-sdk-all");
           }
-          otelLogger.info("Executed log call");
 
           s3.listBuckets();
 
-          return "Log message sent to otelLogger";
+          return "Log message sent to otel";
         });
 
     /** record a start time for each request */
